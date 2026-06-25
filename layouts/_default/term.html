@@ -1,0 +1,45 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $posts := where .Pages "Type" "posts" }}
+{{- $pubs  := where .Pages "Type" "publications" }}
+
+{{- if $pubs }}
+<h2 class="term-section-title">AWS Publications</h2>
+{{- range $pubs }}
+<article class="post-entry tag-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }} <span class="ext-arrow">↗</span></h2>
+  </header>
+  <a class="entry-link" aria-label="external link to {{ .Title | plainify }}"
+     href="{{ .Params.externalUrl }}" target="_blank" rel="noopener"></a>
+</article>
+{{- end }}
+{{- end }}
+
+{{- if $posts }}
+<h2 class="term-section-title">Personal Blog</h2>
+{{- range $posts }}
+<article class="post-entry tag-entry">
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">{{ .Title }}</h2>
+  </header>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  </div>
+  {{- end }}
+  <footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}

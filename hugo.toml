@@ -1,0 +1,93 @@
+baseURL = "https://route179.dev/"
+languageCode = "en-us"
+title = "Route179"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+copyright = "© 2026 [Sheng Chen](/)"
+mainSections = ["posts"]   # home, archives & search only list blog posts (not AWS publications)
+
+# Preserve original WordPress dated permalinks: /2024/09/13/<slug>/
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+
+# WordPress "categories" carried over, but surfaced under the "Tags" label per preference
+[taxonomies]
+  tag = "tags"
+
+[pagination]
+  pagerSize = 10
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Route179"
+  description = "Cloud-Native Infrastructure & AI Platform Engineering"
+  keywords = ["DevOps", "Kubernetes", "Cloud Native", "AWS", "Terraform", "VMware", "Nutanix"]
+  author = "route179"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Route179"
+    Content = "Cloud-Native Infrastructure & AI Platform Engineering"
+
+  # Show cover/diagram as a thumbnail on home & list pages, but hide it at the
+  # top of the individual post so the Table of Contents leads instead.
+  [params.cover]
+    hiddenInSingle = true
+    hiddenInList = false
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+  [markup.goldmark.renderer]
+    unsafe = true   # allow raw HTML carried over from WordPress posts
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "aws-publications"
+  name = "AWS Publications"
+  url = "/aws-publications/"
+  weight = 15
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 50
