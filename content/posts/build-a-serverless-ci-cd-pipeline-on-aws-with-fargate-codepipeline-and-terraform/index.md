@@ -17,7 +17,7 @@ Specifically, we’ll be creating the following AWS resources:
 - 1x demo VPC including public/private subnets, NAT gateway and security groups etc
 - 1x ALB for providing LB services to a target group of 2x Fargate container tasks
 - 1x ECS cluster with a Fargate service definition (running our demo app)
-- 1x CodePipeline definition, which builds the demo app from [GitHub Repo](https://github.com/scdev13912/fargate-demo-app.git) (with a webhook trigger) and deploys it to the same Fargate service
+- 1x CodePipeline definition, which builds the demo app from [GitHub Repo](https://github.com/sc13912/fargate-demo-app.git) (with a webhook trigger) and deploys it to the same Fargate service
 - 1x ECR repository for hosting pipeline build images
 - 2x S3 Buckets as build & artifact cache
 
@@ -33,7 +33,7 @@ Specifically, we’ll be creating the following AWS resources:
 - Install AWS toolkits including AWS CLI, AWS-IAM-Authenticator
 - Check the NTP clock & sync status on your client —\> important!
 - Clone or donwload the Terraform code [at here](https://github.com/sc13912/tf-fargate-codepipeline.git).
-- Clone or fork the demo app (including CodePipeline buildspec) [at here](https://github.com/scdev13912/fargate-demo-app.git).
+- Clone or fork the demo app (including CodePipeline buildspec) [at here](https://github.com/sc13912/fargate-demo-app.git).
 
 **Step-1: Review the Terraform Script**
 
