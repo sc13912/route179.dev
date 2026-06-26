@@ -69,6 +69,12 @@ mainSections = ["posts"]   # home, archives & search only list blog posts (not A
   weight = 10
 
 [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 12
+
+[[menu.main]]
   identifier = "aws-publications"
   name = "AWS Publications"
   url = "/aws-publications/"
