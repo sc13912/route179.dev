@@ -1,14 +1,14 @@
 ---
 title: "About"
 url: "/about/"
-summary: "About Sheng Chen — Sr. Specialist Solutions Architect at AWS."
+summary: "About Sheng Chen — Solutions Architect at AWS."
 ShowReadingTime: false
 ShowBreadCrumbs: false
 ShowToc: false
 hideMeta: true
 ---
 
-Hi, I'm Sheng — a Sr. Specialist Solutions Architect at AWS Australia, where I help customers accelerate cloud migrations and modernize their infrastructure with cloud-native technologies.
+Hi, I'm Sheng — a Solutions Architect at AWS Australia, where I help customers accelerate cloud migrations and modernize their infrastructure with cloud-native technologies.
 
 In my current role, I focus on AWS hybrid cloud services, platform engineering, and HPC / AI infrastructure.
 

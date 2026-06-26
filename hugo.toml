@@ -41,8 +41,18 @@ mainSections = ["posts"]   # home, archives & search only list blog posts (not A
   TocOpen = false
 
   [params.homeInfoParams]
-    Title = "Route179"
-    Content = "Cloud-Native Infrastructure & AI Platform Engineering"
+    Title = "Hi, I'm Sheng"
+    Content = "I'm a Solutions Architect at AWS Australia, where I help customers accelerate cloud migrations and modernize their infrastructure with cloud-native technologies. In my current role, I focus on AWS hybrid cloud services, platform engineering, and HPC / AI infrastructure. This blog is where I share hands-on labs, deep dives, and field notes from my work in cloud-native infrastructure and AI platform engineering. Opinions here are my own."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/sc13912"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sc13912/"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
   # Show cover/diagram as a thumbnail on home & list pages, but hide it at the
   # top of the individual post so the Table of Contents leads instead.
