@@ -1,5 +1,6 @@
 baseURL = "https://route179.dev/"
 languageCode = "en-us"
+timeZone = "Australia/Sydney"
 title = "Route179"
 theme = "PaperMod"
 
