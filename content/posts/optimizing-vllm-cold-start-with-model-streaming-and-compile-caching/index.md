@@ -1,6 +1,6 @@
 ---
 title: "Optimizing vLLM Cold Start with Model Streaming and Compile Caching"
-date: 2026-06-30T10:00:00
+date: 2026-06-30T00:00:00
 slug: optimizing-vllm-cold-start-with-model-streaming-and-compile-caching
 tags: ["vLLM", "GenAI"]
 ---
