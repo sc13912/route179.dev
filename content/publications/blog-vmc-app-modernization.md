@@ -3,6 +3,6 @@ title: "Application Modernization Using Microservices Architecture with VMware C
 externalUrl: "https://aws.amazon.com/blogs/apn/application-modernization-using-microservices-architecture-with-vmware-cloud-on-aws/"
 tags: ["VMware & VMC"]
 searchHidden: true
-_build:
+build:
   render: link
 ---
