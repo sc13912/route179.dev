@@ -1,5 +1,5 @@
 ---
-title: "DGX Sparks Clustering - RoCE/RDMA Networking Setup & NCCL Benchmarking"
+title: "DGX Spark Clustering - RoCE/RDMA Networking Setup & NCCL Benchmarking"
 date: 2026-07-21T10:00:00+10:00
 slug: dgx-spark-nccl-roce-benchmarking
 draft: false
@@ -15,8 +15,10 @@ recently a second one landed on my desk. The plan is to stack the two Sparks wit
 to create a little two-node EKS Hybrid cluster for distributed inference.
 This post documents how to set up RoCE/RDMA networking and perform NCCL testing across the two Spark nodes, including all lessons learned. 
 
-![Two DGX Sparks stacked, front view](spark_stacking_front.jpg)
-![The QSFP cable linking the two Sparks, rear view](spark_stacking_back.jpg)
+<div style="display:flex; gap:1rem; flex-wrap:wrap; margin:1rem 0;">
+  <img src="spark_stacking_front.jpg" alt="Two DGX Sparks stacked, front view" style="flex:1 1 0; min-width:280px; width:50%; height:auto; border-radius:6px;">
+  <img src="spark_stacking_back.jpg" alt="The QSFP cable linking the two Sparks, rear view" style="flex:1 1 0; min-width:280px; width:50%; height:auto; border-radius:6px;">
+</div>
 
 ## The setup
 
