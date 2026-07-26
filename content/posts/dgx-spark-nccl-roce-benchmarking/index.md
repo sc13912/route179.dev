@@ -3,7 +3,7 @@ title: "DGX Spark Clustering - RoCE/RDMA Networking Setup & NCCL Benchmarking"
 date: 2026-07-21T10:00:00+10:00
 slug: dgx-spark-nccl-roce-benchmarking
 draft: false
-tags: ["dgx-spark", "nccl", "roce", "rdma"]
+tags: ["DGX-Spark", "NCCL", "RoCE", "RDMA"]
 cover:
   image: "spark_stacking_front.jpg"
   alt: "Two DGX Sparks stacked and linked with a QSFP cable"
