@@ -43,7 +43,7 @@ mainSections = ["posts"]   # home, archives & search only list blog posts (not A
 
   [params.homeInfoParams]
     Title = "Hi, I'm Sheng"
-    Content = "I'm a Solutions Architect at AWS Australia, where I help customers accelerate cloud migrations and modernize their infrastructure with cloud-native technologies. In my current role, I focus on AWS hybrid cloud services, platform engineering, and HPC / AI infrastructure. This blog is where I share hands-on labs, deep dives, and field notes from my work in cloud-native infrastructure and AI platform engineering. Opinions here are my own."
+    Content = "I'm a Solutions Architect at AWS Australia, and I specialize in AWS hybrid cloud services, platform engineering, and HPC / AI infrastructure. This blog is where I share hands-on labs, deep dives, and field notes from my work in cloud-native infrastructure and AI platform engineering. Opinions here are my own.\n\nYou can also find my official AWS blog posts and tech talks on my [AWS Publications](/aws-publications/) page."
 
   [[params.socialIcons]]
     name = "github"
