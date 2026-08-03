@@ -70,6 +70,8 @@ rather than the ~900 GB/s NVLink you'd get on an H100 box. That's still way fast
 than the inter-node network — you're still working with the two-level communication hierarchy.
 Everything here scales to bigger GPUs by changing the instance type.
 
+You can find all artefacts used in this post — the Slurm batch script, the training script, and the full run log — at my **[GitHub repo](https://github.com/sc13912/slurm-cluster-finetune-qwen)**.
+
 ## Step 1 — Launch the instances
 
 Launch all 3x instances into **one subnet** and **one security group**. The security group
