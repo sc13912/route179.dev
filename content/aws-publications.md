@@ -23,6 +23,7 @@ A collection of my AWS publications
 ### Amazon EKS & EKS Hybrid Nodes
 
 <ul>
+  <li><a href="https://github.com/aws-containers/reinvent/tree/main/sessions/2026/CON410" target="_blank" rel="noopener">AWS re:Invent 2026: Chalk Talk (CON410) - Deep dive into networking architectures for Amazon EKS Hybrid Nodes</a></li>
   <li><a href="https://github.com/aws-samples/sample-eks-hybrid-nodes-poc" target="_blank" rel="noopener">AWS Sample: EKS Hybrid Nodes proof-of-concept (PoC) template</a></li>
   <li><a href="https://aws.amazon.com/blogs/containers/deep-dive-into-cluster-networking-for-amazon-eks-hybrid-nodes/" target="_blank" rel="noopener">AWS Blog: Deep dive into cluster networking for Amazon EKS Hybrid Nodes</a></li>
   <li><a href="https://aws.amazon.com/blogs/containers/simplify-hybrid-kubernetes-networking-with-amazon-eks-hybrid-nodes-gateway/" target="_blank" rel="noopener">AWS Blog: Simplify hybrid Kubernetes networking with Amazon EKS Hybrid Nodes gateway</a></li>
@@ -32,7 +33,7 @@ A collection of my AWS publications
   <li><a href="https://repost.aws/articles/ARL44xuau6TG2t-JoJ3mJ5Mw/unpacking-the-cluster-networking-for-amazon-eks-hybrid-nodes" target="_blank" rel="noopener">AWS re:Post: Unpacking the Cluster Networking for Amazon EKS Hybrid Nodes</a></li>
 </ul>
 
-### Hybrid & VMware
+### VMware, Hybrid Cloud & Cloud Networking
 
 <ul>
   <li><a href="https://aws.amazon.com/blogs/architecture/secure-amazon-elastic-vmware-service-amazon-evs-with-aws-network-firewall/" target="_blank" rel="noopener">AWS Blog: Secure Amazon Elastic VMware Service (Amazon EVS) with AWS Network Firewall</a></li>
